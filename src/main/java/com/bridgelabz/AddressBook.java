@@ -16,6 +16,7 @@ public class AddressBook {
         Hashtable<String, ArrayList<contactInfo>> personInfoDict = new Hashtable<>();
         ReadWriteOperations readWriteObj = new ReadWriteOperations();
         ReadWriteCSVFile csvObj = new ReadWriteCSVFile();
+        ReadWriteJSONFile jsonObj = new ReadWriteJSONFile();
 
         boolean flag = true;
         int option;
